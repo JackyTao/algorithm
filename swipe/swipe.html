@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+    <style>
+        .list dd {
+            background-color: red;
+            height: 100px;
+            border: solid black;
+            border-width: 0;
+        }
+        .list dd:nth-child(2n) {
+            background-color: yellow;
+        }
+        .list dd:nth-child(2n+1) {
+            background-color: green;
+        }
+        .list {
+            width: 50%;
+        }
+
+    </style>
+    
+    </head>
+    <body>
+        <div id="hc-ill-type" class="list" style="float: left;position: relative">
+          <dl style="position: relative" class="swipe-wrap">
+            <dd style="position: relative">1</dd>
+            <dd style="position: relative">2</dd>
+            <dd style="position: relative">3</dd>
+            <dd style="position: relative">4</dd>
+            <dd style="position: relative">5</dd>
+          </dl>
+        </div>
+        <div id="hc-ill-sub" class="list" style="float: left;position: relative">
+          <dl style="position: relative" class="swipe-wrap">
+            <dd style="position: relative">1</dd>
+            <dd style="position: relative">2</dd>
+            <dd style="position: relative">3</dd>
+            <dd style="position: relative">4</dd>
+          </dl>
+        </div>
+            <script src="./zepto.min.js"></script>
+            <script src="./swipe.js"></script>
+            <script src="./addr.js"></script>
+    </body>
+</htm>
